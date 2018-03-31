@@ -102,3 +102,6 @@ ENV/
 
 #model directory
 models/
+
+#models
+*.h5

@@ -9,6 +9,7 @@ Edited by Kyle McMaster to save model to file for use in API.
 
 from __future__ import print_function
 import keras
+import os
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
@@ -71,6 +72,10 @@ model.fit(x_train, y_train,
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+
+#check if models folder does not exist, create it
+if not os.path.exists('models'):
+    os.makedirs('models')
 
 #Save model to file for use in API.
 filename = 'model.h5'

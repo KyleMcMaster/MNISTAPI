@@ -1,6 +1,6 @@
 # MNISTAPI
 
-This is a demo of using the Convolutional Nerual Nwetwork demo from the Keras documentation in a Flask API. Experimenting with deploying a model to a "production" environment.
+This is a demo of using the MNIST Convolutional Neural Network from the Keras documentation in a Flask API. Experimenting with deploying a model to a "production" environment.
 
 Use:
 
