@@ -6,5 +6,7 @@ Use:
 
 Run mnist_cnn.py to train CNN and save model to models/ folder
 
+
 in one terminal, run server.py
+
 in another terminal, run consumer.py
